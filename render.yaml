@@ -1,0 +1,6 @@
+services:
+  - type: web
+    runtime: static
+    name: cineclub-padre-las-casas-2027-2031
+    buildCommand: mkdir -p dist && cp index.html dist/index.html
+    staticPublishPath: ./dist
